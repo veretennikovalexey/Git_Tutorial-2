@@ -45,8 +45,10 @@ black = [
     "Nh6",
 ]
 
-random_white = random.choice(white)
-random_black = random.choice(black)
+def move:
+    random.shuffle(move)
+    random_move = random.choice(move)
+    print(random_move)    
 
-print(random_white)
-print(random_black)
+move(white)
+move(black)
