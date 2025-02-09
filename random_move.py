@@ -45,9 +45,9 @@ black = [
     "Nh6",
 ]
 
-def move:
-    random.shuffle(move)
-    random_move = random.choice(move)
+def move(moves):
+    random.shuffle(moves)
+    random_move = random.choice(moves)
     print(random_move)    
 
 move(white)
